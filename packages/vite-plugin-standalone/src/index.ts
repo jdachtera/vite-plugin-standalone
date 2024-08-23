@@ -104,7 +104,6 @@ export const standalone = (options?: StandaloneOptions): Plugin => {
           resolvedEntries,
           config,
         );
-        
       }
     },
     writeBundle(_, bundle) {
